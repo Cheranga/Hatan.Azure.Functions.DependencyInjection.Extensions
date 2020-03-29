@@ -5,7 +5,7 @@ using Hatan.Azure.Functions.DependencyInjection.Extensions;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Sample.Serverless.Api.Bootstrap;
-using Sample.Serverless.Api.Customer.Configurations;
+using Sample.Serverless.Api.Sales.Configurations;
 
 [assembly:FunctionsStartup(typeof(Startup))]
 namespace Sample.Serverless.Api.Bootstrap
@@ -17,6 +17,7 @@ namespace Sample.Serverless.Api.Bootstrap
             var services = builder.Services;
 
             services.RegisterConfiguration<CustomerApiSettings>(ServiceLifetime.Scoped);
+            services.RegisterConfiguration<OrdersApiSettings>("OrdersApi", ServiceLifetime.Scoped);
         }
     }
 }

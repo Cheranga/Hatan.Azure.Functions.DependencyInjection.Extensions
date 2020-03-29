@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
-using Sample.Serverless.Api.Customer.Configurations;
+using Sample.Serverless.Api.Sales.Configurations;
 
-namespace Sample.Serverless.Api.Customer.Functions
+namespace Sample.Serverless.Api.Sales.Functions
 {
     public class CreateCustomerFunction
     {

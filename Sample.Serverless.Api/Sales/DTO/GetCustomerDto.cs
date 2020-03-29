@@ -1,4 +1,4 @@
-﻿namespace Sample.Serverless.Api.Customer.DTO
+﻿namespace Sample.Serverless.Api.Sales.DTO
 {
     public class GetCustomerDto
     {
