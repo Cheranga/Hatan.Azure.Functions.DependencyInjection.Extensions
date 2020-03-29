@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatan.Azure.Functions.DependencyInjection.Extensions", "Hatan.Azure.Functions.DependencyInjection.Extensions\Hatan.Azure.Functions.DependencyInjection.Extensions.csproj", "{91BBDB20-6230-40A9-A0A3-4C2BB441413F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Serverless.Api", "Sample.Serverless.Api\Sample.Serverless.Api.csproj", "{1E125438-7DEC-4164-9723-10B166899E82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{91BBDB20-6230-40A9-A0A3-4C2BB441413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91BBDB20-6230-40A9-A0A3-4C2BB441413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91BBDB20-6230-40A9-A0A3-4C2BB441413F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E125438-7DEC-4164-9723-10B166899E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E125438-7DEC-4164-9723-10B166899E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E125438-7DEC-4164-9723-10B166899E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E125438-7DEC-4164-9723-10B166899E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
